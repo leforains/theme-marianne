@@ -1,4 +1,4 @@
-**Salut !**
+<h1> Salut !</h1>
 
 *Tu veux avoir ton discord avec le thème Marianne?*
 
