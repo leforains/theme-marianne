@@ -10,4 +10,4 @@ Voici un appercu !
 
 Rien ne changent, à part la police d'écriture
 
-***COMPATIBLE AVEC VENCORD ET BETTERDISCORD***
+<h2>COMPATIBLE AVEC VENCORD ET BETTERDISCORD</h2>
