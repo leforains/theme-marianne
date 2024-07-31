@@ -1,0 +1,66 @@
+/* Définition de la police "Marianne" */
+@font-face {
+    font-family: 'Marianne';
+    src: url('chemin/vers/Marianne-Regular.woff2') format('woff2'),
+         url('chemin/vers/Marianne-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Marianne';
+    src: url('chemin/vers/Marianne-Bold.woff2') format('woff2'),
+         url('chemin/vers/Marianne-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Style global */
+* {
+    font-family: 'Marianne', sans-serif;
+}
+
+/* Thème avec des couleurs moins sombres */
+:root {
+    --background-primary: #1a1a1a; /* couleur de fond principale */
+    --background-secondary: #2a2a2a; /* couleur de fond secondaire */
+    --background-tertiary: #3a3a3a; /* couleur de fond tertiaire */
+    --text-normal: #f5f5f5; /* couleur du texte normal */
+    --text-muted: #b0b0b0; /* couleur du texte atténué */
+}
+
+/* Titres et texte important */
+.title-29uC1r, .titleDefault-a8-ZSr, .markup-2BOw-j {
+    color: #f5f5f5 !important; /* couleur du texte des titres */
+    font-weight: bold;
+}
+
+/* Style pour les canaux */
+.channel-2QD9_O, .channelName-2YrOjO {
+    background-color: rgba(255, 255, 255, 0.1); /* léger fond coloré pour les canaux */
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Effet de transition pour le changement de serveur */
+.container-3baos1 {
+    animation: fadeIn 0.5s ease forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Ajouter un effet de survol pour les serveurs */
+.guilds-1SWlCJ .wrapper-1BJsBx {
+    transition: transform 0.3s ease;
+}
+
+.guilds-1SWlCJ .wrapper-1BJsBx:hover {
+    transform: scale(1.05);
+}
